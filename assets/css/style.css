@@ -1,0 +1,152 @@
+body {
+    font-family: kanit !important;
+    background: linear-gradient(360deg, #f7f5f5, #d2ffe7);
+}
+.header a p{
+    color: #1c715c;
+    text-decoration: none;
+    background-color: transparent;
+    display: inline-block;
+    padding: 0.8rem;
+    font-size: 0.9rem;
+    padding-bottom: 0;
+}
+
+.header a:hover p{
+    color: #2aa571;
+}
+p{
+    color: #1c715c;
+    font-size: 0.8rem;
+}
+h1{
+    color: #145343;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0;
+    line-height: 1;
+    margin-top: 0.9rem;
+}
+h2{
+    color: #207e66;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+h3{
+    margin-top: 2rem;
+    color: #2aa571;
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+.d-head{
+    color: #145343;
+    font-size: 1.3rem;
+    margin-top: 0;
+}
+.d-txt{
+    color: #2aa571;
+    font-size: 0.8rem;
+}
+.icon-active{
+    position: absolute;
+    left: 48%;
+    flex: initial;
+}
+.icon{
+    position: absolute;
+    left: 48.8%;
+    flex:initial;
+}
+.d-year{
+    color: white;
+    font-size: 2rem;
+}
+.d-year-left{
+    color: #145343;
+    font-size: 2rem;
+}
+#menu__toggle {
+    opacity: 0;
+  }
+  
+  #menu__toggle:checked ~ .menu__btn > span {
+    transform: rotate(45deg);
+  }
+  #menu__toggle:checked ~ .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0);
+  }
+  #menu__toggle:checked ~ .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+  #menu__toggle:checked ~ .menu__box {
+    visibility: visible;
+    right: 0;
+  }
+  
+  .menu__btn {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  
+    width: 26px;
+    height: 26px;
+  
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .menu__btn > span,
+  .menu__btn > span::before,
+  .menu__btn > span::after {
+    display: block;
+    position: absolute;
+  
+    width: 100%;
+    height: 2px;
+  
+    background-color: #1c715c;
+  
+    transition-duration: .25s;
+  }
+  .menu__btn > span::before {
+    content: '';
+    top: -8px;
+  }
+  .menu__btn > span::after {
+    content: '';
+    top: 8px;
+  }
+  
+  .menu__box {
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 4.47rem;
+    right: 0;
+    width: 100%;
+    height: auto;
+    padding: 1.5rem;
+    margin: 0;
+    list-style: none;
+    background-color: #E6FFF3;
+    box-shadow: 1px 0px 6px rgb(0 0 0 / 20%);
+    transition-duration: .25s;
+    text-align: center;
+  }
+  
+  .menu__item {
+    display: block;
+    padding: 3px 24px;
+    color: #333;
+    font-size: 0.8rem;
+    text-decoration: none;
+    transition-duration: .25s;
+  }
+  .menu__item:hover {
+    background-color: #32A54E;
+    color: white;
+  }
