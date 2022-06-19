@@ -13,7 +13,7 @@
                     <label for="InputPhone" class="form-label"><p>เบอร์โทรศัพท์</p></label>
                     <input type="text" class="form-control" id="phone" placeholder="กรุณากรอกเบอร์โทรศัพท์" name="phone" v-model="phone" onkeypress="return event.charCode >= 48 && event.charCode <= 57"  maxlength="10">
                 </div>
-                <button type="submit" class="btn btn-success"><p class="text-white">Submit</p></button>
+                <button type="submit" class="btn btn-success"><p class="text-white">สมัครงาน</p></button>
             </form>
             <div class="show-data">
                 <p>{{ this.show_name }}</p>
