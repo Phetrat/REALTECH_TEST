@@ -63,6 +63,7 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
+    'nuxt-sweetalert2'
   ],
   rules: {
     'vue/multi-word-component-names': 0,
